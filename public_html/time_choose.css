@@ -1,0 +1,66 @@
+.time_choose{
+    display: inline-block;
+    position: relative;
+}
+.time_box{
+    position:absolute;
+    width:100%;
+    height:auto;
+    padding: 4px 0;
+    margin-top:-1px;
+    display: none;
+    border: 1px solid #ccc;
+    border-radius:4px;
+    background: #ffffff;
+    -webkit-box-shadow: 1px 6px 12px rgba(0,0,0,0.175), -1px 3px 12px rgba(0,0,0,0.175);
+    -moz-box-shadow: 1px 6px 12px rgba(0,0,0,0.175), -1px 3px 12px rgba(0,0,0,0.175);
+    -ms-box-shadow: 1px 6px 12px rgba(0,0,0,0.175), -1px 3px 12px rgba(0,0,0,0.175);
+    -o-box-shadow: 1px 6px 12px rgba(0,0,0,0.175), -1px 3px 12px rgba(0,0,0,0.175); 
+    box-shadow:1px 6px 12px rgba(0,0,0,0.175), -1px 3px 12px rgba(0,0,0,0.175);
+}
+.time_box .time_list{
+    padding: 0;
+    margin: 0;
+}
+.time_box .time_item{
+    list-style-type: none;
+    line-height: 30px;
+}
+.time_box .prev,
+.time_box .next{
+    width: 20px;
+    height: 20px;
+    line-height: 18px;
+    margin: 0 4px;
+    display: inline-block;
+    color: rgb(167, 163, 163);
+    border-radius: 50%;
+    border: 1px solid rgb(204,204,204);
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "宋体";
+    font-weight: 700;
+}
+.time_box .current{
+    width: 60px;
+    height: 24px;
+    vertical-align: middle;
+    line-height: 24px;
+    text-indent: 0;
+    margin: 0 4px;
+    padding: 0;
+}
+.time_box .month{
+    display: inline-block;
+    padding:3px 7px;
+    line-height: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.time_box .day{
+    display: inline-block;
+    width: 14%;
+    text-align: center;
+    cursor: pointer;
+}
